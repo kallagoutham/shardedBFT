@@ -1,0 +1,122 @@
+version: "3.9"
+services:
+  app0:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - CLUSTER=1
+      - CLUSTER_SIZE=4
+      - SHARD_SIZE=1000
+      - NO_OF_CLUSTERS=3
+      - JAVA_OPTS=-Xms64m -Xmx128m
+  app1:
+    build: .
+    ports:
+      - "8081:8080"
+    environment:
+      - CLUSTER=1
+      - CLUSTER_SIZE=4
+      - SHARD_SIZE=1000
+      - NO_OF_CLUSTERS=3
+      - JAVA_OPTS=-Xms64m -Xmx128m
+  app2:
+    build: .
+    ports:
+      - "8082:8080"
+    environment:
+      - CLUSTER=1
+      - CLUSTER_SIZE=4
+      - SHARD_SIZE=1000
+      - NO_OF_CLUSTERS=3
+      - JAVA_OPTS=-Xms64m -Xmx128m
+  app3:
+    build: .
+    ports:
+      - "8083:8080"
+    environment:
+      - CLUSTER=1
+      - CLUSTER_SIZE=4
+      - SHARD_SIZE=1000
+      - NO_OF_CLUSTERS=3
+      - JAVA_OPTS=-Xms64m -Xmx128m
+  app4:
+    build: .
+    ports:
+      - "8084:8080"
+    environment:
+      - CLUSTER=2
+      - CLUSTER_SIZE=4
+      - SHARD_SIZE=1000
+      - NO_OF_CLUSTERS=3
+      - JAVA_OPTS=-Xms64m -Xmx128m
+  app5:
+    build: .
+    ports:
+      - "8085:8080"
+    environment:
+      - CLUSTER=2
+      - CLUSTER_SIZE=4
+      - SHARD_SIZE=1000
+      - NO_OF_CLUSTERS=3
+      - JAVA_OPTS=-Xms64m -Xmx128m
+  app6:
+    build: .
+    ports:
+      - "8086:8080"
+    environment:
+      - CLUSTER=2
+      - CLUSTER_SIZE=4
+      - SHARD_SIZE=1000
+      - NO_OF_CLUSTERS=3
+      - JAVA_OPTS=-Xms64m -Xmx128m
+  app7:
+    build: .
+    ports:
+      - "8087:8080"
+    environment:
+      - CLUSTER=2
+      - CLUSTER_SIZE=4
+      - SHARD_SIZE=1000
+      - NO_OF_CLUSTERS=3
+      - JAVA_OPTS=-Xms64m -Xmx128m
+  app8:
+    build: .
+    ports:
+      - "8088:8080"
+    environment:
+      - CLUSTER=3
+      - CLUSTER_SIZE=4
+      - SHARD_SIZE=1000
+      - NO_OF_CLUSTERS=3
+      - JAVA_OPTS=-Xms64m -Xmx128m
+  app9:
+    build: .
+    ports:
+      - "8089:8080"
+    environment:
+      - CLUSTER=3
+      - CLUSTER_SIZE=4
+      - SHARD_SIZE=1000
+      - NO_OF_CLUSTERS=3
+      - JAVA_OPTS=-Xms64m -Xmx128m
+  app10:
+    build: .
+    ports:
+      - "8090:8080"
+    environment:
+      - CLUSTER=3
+      - CLUSTER_SIZE=4
+      - SHARD_SIZE=1000
+      - NO_OF_CLUSTERS=3
+      - JAVA_OPTS=-Xms64m -Xmx128m
+  app11:
+    build: .
+    ports:
+      - "8091:8080"
+    environment:
+      - CLUSTER=3
+      - CLUSTER_SIZE=4
+      - SHARD_SIZE=1000
+      - NO_OF_CLUSTERS=3
+      - JAVA_OPTS=-Xms64m -Xmx128m
