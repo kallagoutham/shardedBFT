@@ -792,7 +792,7 @@ docker-compose up -d
 - **Reason**: Servers not running or hostname/port misconfigured
 - **Solution**: Verify `docker-compose ps` shows all services running, check `application.properties`
 
-**Youtube** : https://youtu.be/QRt0SRZfavY
+**Youtube** : https://youtu.be/GprCejDuRDE
 
 ## Contributing
 
